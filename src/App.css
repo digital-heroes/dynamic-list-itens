@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.App-header {
+  width: 30%;
+  padding: 10px;
+  background-color: #1552ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Todo-input {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+  outline: none;
+}
+
+.Todo-button {
+  background: white;
+  padding: 10px;
+  border: none;
+}
+
+.Item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  background: white;
+}
+
+.Item-field {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.Array-preview {
+  width: 70%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  background-color: black;
+  color: white;
+  text-align: start;
+}
